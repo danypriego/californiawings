@@ -1,0 +1,501 @@
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Socialito';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Socialito.eot");
+  src: url("../fonts/Socialito.otf"), url("../fonts/Socialito.ttf"); }
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+input, textarea {
+  
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle; }
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical; }
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+  body{
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 100%;
+    min-height: 100%; }
+  .nav>li>a{
+    color:white; }
+  .nav>li>a:hover{
+    border-bottom: solid 2px #D50000;
+    background-color: #514aac; }
+  .navbar{
+    top:2em; }
+  #logo{
+    background-image: url("../img/logo.png");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+    background-color: transparent;
+    top: 0;
+    z-index: 10000;
+    margin-top:-5px;
+    left: 5px; }
+  .navbar-default{
+    border-bottom: none;}
+  .icon-bar{
+    background-color: white;}
+  #copyright{
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    color:black;
+    width: 100%;
+    padding: 0 5px; }
+  #facebook{
+    font-size: 4em;}
+  footer ul li a{
+    text-decoration: none;
+    color: #FF
+  }
+  footer ul li a:hover{
+    color: #F0F0F0;
+  }
+  footer ul li a:visited{
+    color: #FFF;
+  }
+  .facebook-icon li{
+    list-style: none;
+    max-height: 42px;
+    padding-top: 5px;
+    padding-bottom: 2em;
+    padding-left: 42px;
+    background: url("../img/fb32.png") no-repeat;    
+  }
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.primary-text{
+  color: white;}
+
+.primary-color{
+  background-color: #18227c;} /*azul*/
+
+.primary-light{
+  background-color: #514aac;}/*morado claro*/
+
+.primary-dark{
+  background-color: #00004F;}/*azul-marino*/
+
+.secondary-color{
+  background-color: #D50000;}/*rojo*/
+
+.secondary-light{
+  background-color: #FF5131;}/*naranja-claro*/
+
+.secondary-dark{
+  background-color: #9B0000;}/*rojo oscuro*/
+.card {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); }
+
+.white-text {
+  color: #fff; }
+
+.red-border{
+  border-color: #9B0000;
+}
+
+.black-text {
+  color: #000; }
+
+.black {
+  background-color: #222; }
+
+
+.white {
+  background-color: #fff; }
+
+.divider-color {
+  border-color: #BDBDBD; }
+
+.dancing-script {
+  font-family: 'Dancing Script', cursive; }
+
+.orange-shadow {
+  text-shadow: 2px 2px #ff0000; }
+
+.accent-color-shadow {
+  text-shadow: 1px 1px 2px #ff0000; }
+
+.title {
+  font-size: 4em; }
+
+.slim {
+  font-weight: 200; }
+
+.socialito{
+font-family: 'Socialito';
+}
+
+.subtitle {
+  font-size: 2.5em; }
+
+.medium, .navigation li {
+  font-size: 1.5em; }
+
+.large-padding {
+  padding: 10px 15px; }
+
+.fixed {
+  position: fixed; }
+
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
+.inline-block{
+  display: inline-block;
+}
+
+.bottom {
+  bottom: 0px; }
+
+.top {
+  top: 3em; }
+
+.right {
+  right: 5em; }
+
+.up {
+  z-index: 5; }
+
+.full-height {
+  height: 100%; }
+
+.medium-height {
+  height: 50%; }
+
+.small-height {
+  height: 25%; }
+
+.full-width {
+  width: 100%; }
+
+.row {
+  margin: 0; }
+
+.top-space {
+  margin-top: 2em; }
+
+.no-margin {
+  margin: 0; }
+
+.left-margin {
+  margin-left: 10em; }
+
+.right-margin {
+  margin-right: 10em; }
+.vertical-align{
+  vertical-align: text-top;
+}
+.padding-bottom{
+  padding-bottom: 1em;
+}
+/*
+ * Hide visually and from screen readers
+ */
+.hidden {
+  display: none !important; }
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+.invisible {
+  visibility: hidden; }
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.clearfix:after {
+  clear: both; }
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */ }
+
+@media screen and (max-width: 940px){
+  .medium-height{
+    height: auto;
+  }
+  .navbar{
+    top: 0;
+  }
+  #logo{
+    display: none;
+  } 
+}
+
+@media only screen and (max-width: 500px) {
+   }
+
+@media only screen and (max-height: 600px) {
+   }
+
+@media only screen and (max-width: 960px) {
+  }
+
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */ }
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@media print {
+  *,
+  *:before,
+  *:after,
+  *:first-letter,
+  *:first-line {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+    box-shadow: none !important;
+    text-shadow: none !important; }
+  a,
+  a:visited {
+    text-decoration: underline; }
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+  /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: ""; }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+  /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+  thead {
+    display: table-header-group; }
+  tr,
+  img {
+    page-break-inside: avoid; }
+  img {
+    max-width: 100% !important; }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+  h2,
+  h3 {
+    page-break-after: avoid; } }
+.fran-conte{
+ align-content: center;
+
+}
+
+.inicio-center{
+  padding-top: 5%;
+}
+.conten-font-color{
+  /*background-color: rgba(52, 73, 94,.9); ;*/
+  padding: 1.5em;
+}
+.col-color-fond{
+  background-color: ;
+  
+  
+}
+.img-center{
+  margin:10px auto;
+  display:block;
+}
+.col-center{
+   
+    margin: 0 auto;
+}
+.conta-img-promo{
+  margin-top: 100px;
+  padding: auto;
+}
+.margin-top-div{
+  margin-top: 50px;
+
+}
+
+
+#img-promo-franquicia{
+  background-image: url("../img/franquicias.jpg") ;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin:0px;
+ position: relative;
+  width: 100%;
+  height: 500px;
+}
+h1{
+  font-size: 3.9em;
+}
+
+.style-fonts-title{
+  font-family: 'Comfortaa', cursive;
+}
+
+.secundary-color-col{
+  color: #D5DBDB  ;
+}
+.color-border-marco{
+  
+  border-color: #9B0000;
+ 
+ 
+}
+.border-col{
+  border-radius: 4px;
+  border:6px double;
+}
+
+#img-costo{
+  
+
+   width: 100px;
+   height: 100px;
+  
+}
+/*florian*/
