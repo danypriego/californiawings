@@ -140,7 +140,7 @@ textarea {
     padding-top: 5px;
     padding-bottom: 2em;
     padding-left: 42px;
-    background: url("../img/fb32.png") no-repeat;    
+    background: url("../img/fb32.png") no-repeat;
   }
 /* ==========================================================================
    Helper classes
@@ -351,7 +351,7 @@ font-family: 'Socialito';
   }
   #logo{
     display: none;
-  } 
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -420,6 +420,7 @@ font-family: 'Socialito';
   h2,
   h3 {
     page-break-after: avoid; } }
+    /*styles-franquicias-*/
 .fran-conte{
  align-content: center;
 
@@ -434,15 +435,15 @@ font-family: 'Socialito';
 }
 .col-color-fond{
   background-color: ;
-  
-  
+
+
 }
 .img-center{
   margin:10px auto;
   display:block;
 }
 .col-center{
-   
+
     margin: 0 auto;
 }
 .conta-img-promo{
@@ -477,10 +478,10 @@ h1{
   color: #D5DBDB  ;
 }
 .color-border-marco{
-  
+
   border-color: #9B0000;
- 
- 
+
+
 }
 .border-col{
   border-radius: 4px;
@@ -488,10 +489,11 @@ h1{
 }
 
 #img-costo{
-  
+
 
    width: 100px;
    height: 100px;
-  
+
 }
+  /*end-franquicias-*/
 /*florian*/
