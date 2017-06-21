@@ -315,7 +315,7 @@ font-family: 'Socialito';
   padding-bottom: 1em;
 }
 .cover{
-  object-fit: stretch;
+  object-fit: cover;
   height: 100%;
   width: 100%;
 }
