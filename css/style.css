@@ -75,16 +75,6 @@ fieldset {
 textarea {
   resize: vertical; }
 
-/*
-* Move section 8.5em top
-*/
-section.full-viewport-height{
-  position: relative;
-    top: 8.5em;
-    padding: 0;
-    width: 100%;
-  }
-
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
@@ -163,10 +153,17 @@ section.full-viewport-height{
     padding-top: 25px;
   }
   .about-us .row{
-    
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
+  }
+  /*
+  * Move section 8.5em top
+  */
+  section.full-viewport-height{
+      margin-top: 8.5em;
+      padding: 0;
+      width: 100%;
   }
 /* ==========================================================================
    Helper classes
@@ -273,6 +270,7 @@ font-family: 'Socialito';
 }
 
 .full-viewport-height{
+  /*height: auto;*/
   height: calc(100% - 8.5em); }
 
 .full-height {
@@ -315,6 +313,11 @@ font-family: 'Socialito';
 }
 .padding-bottom{
   padding-bottom: 1em;
+}
+.cover{
+  object-fit: stretch;
+  height: 100%;
+  width: 100%;
 }
 /*
  * Hide visually and from screen readers
@@ -399,17 +402,19 @@ font-family: 'Socialito';
   .container{
     margin: 0;
   }
-  .slider-size{
-    width: 100%;
-    height: 35em;
-  }
-  .history{
+  .about-us{
     height: auto;
     padding-left: 0;
   }
-  .history .row{
+  .about-us .row{
     width: 100%;
     margin: 0;
+  }
+  section.full-viewport-height{
+    margin-top: 3.5em;
+  }
+  .full-viewport-height{
+    height: 15em;;
   }
 }
 
