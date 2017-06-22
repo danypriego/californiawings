@@ -488,6 +488,9 @@ h1{
   border-radius: 4px;
   border:6px double;
 }
+.fond-color-col{
+  background: linear-gradient()
+}
 
 #img-costo{
  width: 100px;
