@@ -384,6 +384,7 @@ font-family: 'Socialito';
     height: auto;
   }
   .navbar{
+    border: none;
     top: 0;
   }
   #logo{
@@ -404,7 +405,7 @@ font-family: 'Socialito';
     margin-top: 3.5em;
   }
   .full-viewport-height{
-    height: 15em;
+    height: 20em;
   }
 }
 
