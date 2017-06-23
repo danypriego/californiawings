@@ -1,17 +1,14 @@
-var map;
 function initMap() {
-
-
-        var myLatLng = {lat: 19.252803, lng: -103.712044};
+        var myLatLng = {lat: 19.252877, lng: -103.712046};
 
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 17,
+          zoom: 16,
           center: myLatLng
         });
 
         var marker = new google.maps.Marker({
           position: myLatLng,
           map: map,
-          title: 'California ribs'
+          title: 'California ribs wings & beer - colima'
         });
       }

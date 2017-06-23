@@ -38,74 +38,9 @@
 <div id="logo" class="fixed"></div>
 
 
-<main id="contenedor" >
+<main id="contenedor">
   <div class="row">
-    <div class="col-md-12">
-      <div id="carousel-1" class="carousel slide" data-ride="carousel">
-        <!--Indicadores-->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-1" data-slide-to="1"></li>
-          <li data-target="#carousel-1" data-slide-to="2"></li>
-          <li data-target="#carousel-1" data-slide-to="3"></li>
-          <li data-target="#carousel-1" data-slide-to="4"></li>
-        </ol>
-
-        <!--Contenedor de los slide -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="http://lorempixel.com/1200/400/" class="img-responsive full-width " alt="">
-            <div class="carousel-caption hidden-xs hidden-md">
-              <h3>Sucursal #1</h3>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="http://lorempixel.com/1200/400/city/1" class="img-responsive full-width" alt="">
-            <div class="carousel-caption hidden-xs hidden-md">
-              <h3>Sucursal #2</h3>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="http://lorempixel.com/1200/400/city/2" class="img-responsive full-width" alt="">
-            <div class="carousel-caption hidden-xs hidden-md">
-              <h3>Sucursal #3</h3>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="http://lorempixel.com/1200/400/city/2" class="img-responsive full-width" alt="">
-            <div class="carousel-caption hidden-xs hidden-md">
-              <h3>Sucursal #4</h3>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="http://lorempixel.com/1200/400/city/2" class="img-responsive full-width" alt="">
-            <div class="carousel-caption hidden-xs hidden-md">
-              <h3>Sucursal #5</h3>
-            </div>
-          </div>
-
-        </div> 
-
-        <!-- Controles -->
-
-          <a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-          </a>
-
-          <a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Siguiente</span>
-          </a>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-      <div class="col-xs-6">
+      <div class="col-md-12">
         <div role="tabpanel">
           
           <ul class="nav nav-tabs" role="tablist">
@@ -116,38 +51,44 @@
             <li role="presentation"><a href="#sucursal5" aria-controls="" data-toggle="tab" role="tab">San Juan</a></li>
           </ul>
 
-          <div class="tab-content full-height">
+          <div class="tab-content">
             <div role="tabpanel" class="tab-pane active" id="sucursal1">
               <div id="sucursal1" class="sucursal">
                 <!-- FOTO PRINCIPAL-->
-
-                <table class=" table primary-text">
-                  <tr>
-                    <th>#</th>
-                    <th>Tipo de Contacto</th>
-                    <th>Contacto</th>
-                  </tr>
-                  <tr>
-                    <th>1</th>
-                    <th>Telefono</th>
-                    <th>312 3306694</th>
-                  </tr>
-                  <tr>
-                    <th>2</th>
-                    <th>Facebook</th>
-                    <th><a href="https://www.facebook.com/CaliforniaRibsWingsBeerColima">California ribs Colima</a></th>
-                  </tr>
-                  <tr>
-                    <th>3</th>
-                    <th>Twitter</th>
-                    <th></th>
-                  </tr>
-                  <tr>
-                    <th>4</th>
-                    <th>Direccion</th>
-                    <th>AV. FELIPE SEVILLA DEL RIO 355 COL. JARDINES VISTAHERMOSA</th>
-                  </tr>
-                </table>
+                <div class="row">
+                  <div class="col-md-6">
+                    <table class=" table primary-text  medium-height">
+                      <tr class="primary-color">
+                        <th>#</th>
+                        <th>Tipo de Contacto</th>
+                        <th>Contacto</th>
+                      </tr>
+                      <tr class="secondary-dark">
+                        <th>1</th>
+                        <th>Telefono</th>
+                        <th>312 3306694</th>
+                      </tr>
+                      <tr class="primary-color">
+                        <th>2</th>
+                        <th>Facebook</th>
+                        <th><a class="primary-text" href="https://www.facebook.com/CaliforniaRibsWingsBeerColima">California ribs Colima</a></th>
+                      </tr>
+                      <tr class="secondary-dark">
+                        <th>3</th>
+                        <th>Twitter</th>
+                        <th></th>
+                      </tr>
+                      <tr class="primary-color">
+                        <th>4</th>
+                        <th>Direccion</th>
+                        <th>AV. FELIPE SEVILLA DEL RIO 355 COL. JARDINES VISTAHERMOSA</th>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="col-md-6">
+                    <div id="map" class="medium-height"></div>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -167,9 +108,6 @@
           </div>
 
         </div>
-      </div>
-      <div class="col-xs-6">
-        <div id="map"></div>
       </div>
     </div>
 </main>
