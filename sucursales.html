@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 						<!-- HOJAS DE ESTILO-->
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/stylesanty.css">
+	<link rel="stylesheet" href="css/sergio.css">
 </head>
 <body>
             <!--______________NAVBAR_____________-->
@@ -38,7 +38,7 @@
 <div id="logo" class="fixed"></div>
 
 
-<main>
+<main id="contenedor" >
   <div class="row">
     <div class="col-md-12">
       <div id="carousel-1" class="carousel slide" data-ride="carousel">
@@ -105,46 +105,47 @@
     </div>
   </div>
   <div class="row">
-      <div class="col-md-12">
+      <div class="col-xs-6">
         <div role="tabpanel">
           
           <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#sucursal1" aria-controls="" data-toggle="tab" role="tab">California Ribs - Colima</a></li>
-            <li role="presentation"><a href="#sucursal2" aria-controls="" data-toggle="tab" role="tab">California Ribs - Morelia</a></li>
-            <li role="presentation"><a href="#sucursal3" aria-controls="" data-toggle="tab" role="tab">California Ribs - Tepic</a></li>
-            <li role="presentation"><a href="#sucursal4" aria-controls="" data-toggle="tab" role="tab">California Ribs - Puerto Vallarta</a></li>
-            <li role="presentation"><a href="#sucursal5" aria-controls="" data-toggle="tab" role="tab">California Ribs - San Juan</a></li>
+            <li role="presentation" class="active"><a href="#sucursal1" aria-controls="" data-toggle="tab" role="tab">Colima</a></li>
+            <li role="presentation"><a href="#sucursal2" aria-controls="" data-toggle="tab" role="tab">Morelia</a></li>
+            <li role="presentation"><a href="#sucursal3" aria-controls="" data-toggle="tab" role="tab">Tepic</a></li>
+            <li role="presentation"><a href="#sucursal4" aria-controls="" data-toggle="tab" role="tab">Puerto Vallarta</a></li>
+            <li role="presentation"><a href="#sucursal5" aria-controls="" data-toggle="tab" role="tab">San Juan</a></li>
           </ul>
 
           <div class="tab-content full-height">
             <div role="tabpanel" class="tab-pane active" id="sucursal1">
               <div id="sucursal1" class="sucursal">
                 <!-- FOTO PRINCIPAL-->
-                <table class="primary-text">
+
+                <table class=" table primary-text">
                   <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th>#</th>
+                    <th>Tipo de Contacto</th>
+                    <th>Contacto</th>
                   </tr>
                   <tr>
-                    <th></th>
+                    <th>1</th>
                     <th>Telefono</th>
-                    <th></th>
+                    <th>312 3306694</th>
                   </tr>
                   <tr>
-                    <th></th>
+                    <th>2</th>
                     <th>Facebook</th>
-                    <th></th>
+                    <th><a href="https://www.facebook.com/CaliforniaRibsWingsBeerColima">California ribs Colima</a></th>
                   </tr>
                   <tr>
-                    <th></th>
+                    <th>3</th>
                     <th>Twitter</th>
                     <th></th>
                   </tr>
                   <tr>
-                    <th></th>
+                    <th>4</th>
                     <th>Direccion</th>
-                    <th></th>
+                    <th>AV. FELIPE SEVILLA DEL RIO 355 COL. JARDINES VISTAHERMOSA</th>
                   </tr>
                 </table>
               </div>
@@ -166,6 +167,9 @@
           </div>
 
         </div>
+      </div>
+      <div class="col-xs-6">
+        <div id="map"></div>
       </div>
     </div>
 </main>
@@ -226,5 +230,8 @@
 						<!-- SCRIPTS-->
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
+  <script src="js/map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAt_d5KuTu1KqPBJewrjM3OZARygcYD9xk&callback=initMap"></script>
+  
 </body>
 </html>
