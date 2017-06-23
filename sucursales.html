@@ -38,7 +38,79 @@
 <div id="logo" class="fixed"></div>
 
 
-<main class="full-height"></main>
+<main id="contenedor">
+  <div class="row">
+      <div class="col-md-12">
+        <div role="tabpanel">
+          
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#sucursal1" aria-controls="" data-toggle="tab" role="tab">Colima</a></li>
+            <li role="presentation"><a href="#sucursal2" aria-controls="" data-toggle="tab" role="tab">Morelia</a></li>
+            <li role="presentation"><a href="#sucursal3" aria-controls="" data-toggle="tab" role="tab">Tepic</a></li>
+            <li role="presentation"><a href="#sucursal4" aria-controls="" data-toggle="tab" role="tab">Puerto Vallarta</a></li>
+            <li role="presentation"><a href="#sucursal5" aria-controls="" data-toggle="tab" role="tab">San Juan</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="sucursal1">
+              <div id="sucursal1" class="sucursal">
+                <!-- FOTO PRINCIPAL-->
+                <div class="row">
+                  <div class="col-md-6">
+                    <table class=" table primary-text  medium-height">
+                      <tr class="primary-color">
+                        <th>#</th>
+                        <th>Tipo de Contacto</th>
+                        <th>Contacto</th>
+                      </tr>
+                      <tr class="secondary-dark">
+                        <th>1</th>
+                        <th>Telefono</th>
+                        <th>312 3306694</th>
+                      </tr>
+                      <tr class="primary-color">
+                        <th>2</th>
+                        <th>Facebook</th>
+                        <th><a class="primary-text" href="https://www.facebook.com/CaliforniaRibsWingsBeerColima">California ribs Colima</a></th>
+                      </tr>
+                      <tr class="secondary-dark">
+                        <th>3</th>
+                        <th>Twitter</th>
+                        <th></th>
+                      </tr>
+                      <tr class="primary-color">
+                        <th>4</th>
+                        <th>Direccion</th>
+                        <th>AV. FELIPE SEVILLA DEL RIO 355 COL. JARDINES VISTAHERMOSA</th>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="col-md-6">
+                    <div id="map" class="medium-height"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="sucursal2">
+              <div id="sucursal2" class="sucursal"></div>
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="sucursal3">
+              <div id="sucursal3" class="sucursal"></div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="sucursal4">
+              <div id="sucursal4" class="sucursal"></div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="sucursal5">
+              <div id="sucursal5" class="sucursal"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</main>
 
 
 						<!-- FOOTER-->
@@ -96,5 +168,8 @@
 						<!-- SCRIPTS-->
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
+  <script src="js/map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAt_d5KuTu1KqPBJewrjM3OZARygcYD9xk&callback=initMap"></script>
+  
 </body>
 </html>
