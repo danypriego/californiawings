@@ -153,7 +153,15 @@ textarea {
     padding-left: 42px;
     background: url("../img/fb32.png") no-repeat;    
   }
-   #main_photo{
+
+                        /* ESTILOS CSS DE SANTY */
+  #main_photo{
+    background-image: url("../img/main_promo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40em;
+  }
+   /*#main_photo_2{
     background-image: url("../img/main_promo.jpg");
     background-repeat: no-repeat;
     width: 100%;
@@ -161,7 +169,7 @@ textarea {
     background-size: 100% 100%;
     margin-top: 6em;
     margin-right: 6em;
-  }
+  }*/
   .frase-promo{
     background-size: 100% 100%;
     height: 20em;
@@ -185,14 +193,41 @@ textarea {
     background-size: 100% 100%;
     height: 20em;
   }
+  #wednesday_image_2{
+    background-image: url("../img/wednesday_promo_2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 20em;
+  }
+  #friday_image{
+    background-image: url("../img/friday_promo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 20em;
+  }
   #saturday_image{
     background-image: url("../img/saturday_promo.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 20em;
   }
+  #join_us_image{
+    background-image: url("../img/join_us.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 70em;
+  }
   .margin-top{
     margin-top: 1em;
+  }
+  .margin-top-8{
+    margin-top: 8em;
+  }
+  .margin-top-6{
+    margin-top: 6em;
+  }
+  .border-0{
+    border-color: transparent;
   }
 
 
