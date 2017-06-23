@@ -100,7 +100,14 @@ textarea {
     border-bottom: solid 2px #D50000;
     background-color: #514aac; }
   .navbar{
-    top:2em; }
+    margin-bottom: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 2.5em;
+    border-bottom-color: #fbfbfb;
+    border-top-style: solid;
+    border-top-width: 2.5em;
+    border-top-color: #fbfbfb;
+    /*top:2em;*/ }
   #logo{
     background-image: url("../img/logo.png");
     height: 120px;
@@ -126,7 +133,7 @@ textarea {
     font-size: 4em;}
   footer ul li a{
     text-decoration: none;
-    color: #FF
+    color: #FFF;
   }
   footer ul li a:hover{
     color: #F0F0F0;
@@ -142,8 +149,25 @@ textarea {
     padding-left: 42px;
     background: url("../img/fb32.png") no-repeat;    
   }
+
+  .about-us{
+    padding-top: 25px;
+  }
+  .about-us .row{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
+  /*
+  * Move section 8.5em top
+  */
+  section.full-viewport-height{
+      margin-top: 8.5em;
+      padding: 0;
+      width: 100%;}
+
   #contenedor{
-    margin-top: 7em;
+    margin-top: 9em;
     max-height: 100%;
   }
 
@@ -296,6 +320,15 @@ font-family: 'Socialito';
 .up {
   z-index: 5; }
 
+.slider-size{
+  width: 100%;
+  height: 100%;
+}
+
+.full-viewport-height{
+  /*height: auto;*/
+  height: calc(100% - 8.5em); }
+
 .full-height {
   height: 100vh; }
 
@@ -327,6 +360,11 @@ font-family: 'Socialito';
 }
 .padding-bottom{
   padding-bottom: 1em;
+}
+.cover{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 /*
  * Hide visually and from screen readers
@@ -403,10 +441,31 @@ font-family: 'Socialito';
   }
   .navbar{
     top: 0;
+    border: none;
   }
   #logo{
     display: none;
-  } 
+  }
+  .container{
+    margin: 0;
+  }
+  .about-us{
+    height: auto;
+    padding-left: 0;
+  }
+  #contenedor{
+    margin-top: 4em;
+  }
+  .about-us .row{
+    width: 100%;
+    margin: 0;
+  }
+  section.full-viewport-height{
+    margin-top: 3.5em;
+  }
+  .full-viewport-height{
+    height: 15em;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -475,6 +534,7 @@ font-family: 'Socialito';
   h2,
   h3 {
     page-break-after: avoid; } }
+    /*styles-franquicias-*/
 .fran-conte{
  align-content: center;
 
@@ -487,17 +547,12 @@ font-family: 'Socialito';
   /*background-color: rgba(52, 73, 94,.9); ;*/
   padding: 1.5em;
 }
-.col-color-fond{
-  background-color: ;
-  
-  
-}
 .img-center{
   margin:10px auto;
   display:block;
 }
 .col-center{
-   
+
     margin: 0 auto;
 }
 .conta-img-promo{
@@ -509,7 +564,6 @@ font-family: 'Socialito';
 
 }
 
-
 #img-promo-franquicia{
   background-image: url("../img/franquicias.jpg") ;
   background-repeat: no-repeat;
@@ -518,6 +572,10 @@ font-family: 'Socialito';
   margin:0px;
  position: relative;
   width: 100%;
+  height: 500px;
+}
+
+.img-container-heingt{
   height: 500px;
 }
 h1{
@@ -532,21 +590,17 @@ h1{
   color: #D5DBDB  ;
 }
 .color-border-marco{
-  
   border-color: #9B0000;
- 
- 
 }
 .border-col{
   border-radius: 4px;
   border:6px double;
 }
+.fond-color-col{
+  background: linear-gradient()
+}
 
 #img-costo{
-  
-
-   width: 100px;
+ width: 100px;
    height: 100px;
-  
 }
-/*florian*/
