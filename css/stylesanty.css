@@ -155,8 +155,14 @@ textarea {
   }
 
                         /* ESTILOS CSS DE SANTY */
-  #main_photo{
-    background-image: url("../img/main_promo.jpg");
+  #main_photo_z1{
+    background-image: url("../img/zona_1/main_promo_zona_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40em;
+  }
+  #main_photo_z2{
+    background-image: url("../img/zona_2/main_promo_zona_2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 40em;
@@ -180,37 +186,86 @@ textarea {
     position: relative;
     top: 35%;
   }
-  #tuesday_image{
-    background-image: url("../img/tuesday_promo.jpg");
+  .link_promos:hover{
+    color: white;
+  }
+
+                      /*ESTILOS PROMOS ZONA 1*/
+  #main_promo_image_1{
+    background-image: url("../img/zona_1/main_logo_zona.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 20em;
+  }
+  #tuesday_image_z1{
+    background-image: url("../img/zona_1/tuesday_promo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 20em;
+  }
+  #wednesday_image_z1{
+    background-image: url("../img/zona_1/wednesday_promo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 20em;
+  }
+  #friday_image1_z1{
+    background-image: url("../img/zona_1/friday_promo_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 20em;
+  }
+  #friday_image2_z1{
+    background-image: url("../img/zona_1/friday_promo_2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 20em;
+  }
+  #saturday_image_z1{
+    background-image: url("../img/zona_1/saturday_promo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 20em;
+  }
+                      /*ESTILOS PROMOS ZONA 2*/
+  #main_promo_image_2{
+    background-image: url("../img/zona_2/main_logo_zona_2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 20em;
+  }
+  #tuesday_image_z2{
+    background-image: url("../img/zona_2/tuesday_promo.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 20em;
 
   }
-  #wednesday_image{
-    background-image: url("../img/wednesday_promo.jpg");
+  #wednesday_image_z2{
+    background-image: url("../img/zona_2/wednesday_promo.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 20em;
   }
-  #wednesday_image_2{
-    background-image: url("../img/wednesday_promo_2.jpg");
+  #friday_image1_z2{
+    background-image: url("../img/zona_2/friday_promo_2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 20em;
   }
-  #friday_image{
-    background-image: url("../img/friday_promo.jpg");
+  #friday_image2_z2{
+    background-image: url("../img/zona_2/friday_promo_2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 20em;
   }
-  #saturday_image{
-    background-image: url("../img/saturday_promo.jpg");
+  #saturday_image_z2{
+    background-image: url("../img/zona_2/saturday_promo.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 20em;
   }
+                      /*ESTILOS CONTACTO*/
   #join_us_image{
     background-image: url("../img/join_us.jpg");
     background-repeat: no-repeat;
