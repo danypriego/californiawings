@@ -100,14 +100,7 @@ textarea {
     border-bottom: solid 2px #D50000;
     background-color: #514aac; }
   .navbar{
-    margin-bottom: 0px;
-    border-bottom-style: solid;
-    border-bottom-width: 2.5em;
-    border-bottom-color: #fbfbfb;
-    border-top-style: solid;
-    border-top-width: 2.5em;
-    border-top-color: #fbfbfb;
-    /*top:2em;*/ }
+    top:2em; }
   #logo{
     background-image: url("../img/logo.png");
     height: 120px;
@@ -116,7 +109,7 @@ textarea {
     background-color: transparent;
     top: 0;
     z-index: 10000;
-    /*margin-top:-5px;*/
+    margin-top:-5px;
     left: 5px; }
   .navbar-default{
     border-bottom: none;}
@@ -133,7 +126,7 @@ textarea {
     font-size: 4em;}
   footer ul li a{
     text-decoration: none;
-    color: #FFF;
+    color: #FF
   }
   footer ul li a:hover{
     color: #F0F0F0;
@@ -147,6 +140,7 @@ textarea {
     padding-top: 5px;
     padding-bottom: 2em;
     padding-left: 42px;
+<<<<<<< HEAD
     background: url("../img/fb32.png") no-repeat;    
   }
   .about-us{
@@ -156,6 +150,9 @@ textarea {
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
+=======
+    background: url("../img/fb32.png") no-repeat;
+>>>>>>> priego
   }
   /*
   * Move section 8.5em top
@@ -264,6 +261,7 @@ font-family: 'Socialito';
 .up {
   z-index: 5; }
 
+<<<<<<< HEAD
 .slider-size{
   width: 100%;
   height: 100%;
@@ -273,12 +271,10 @@ font-family: 'Socialito';
   /*height: auto;*/
   height: calc(100% - 8.5em); }
 
+=======
+>>>>>>> priego
 .full-height {
   height: 100%; }
-
-.thumbnail-height{
-  height: 60%;
-}
 
 .medium-height {
   height: 50%; }
@@ -288,11 +284,6 @@ font-family: 'Socialito';
 
 .full-width {
   width: 100%; }
-
-.landscape{
-  width: 100%;
-  height: 20em;
-}
 
 .row {
   margin: 0; }
@@ -394,11 +385,11 @@ font-family: 'Socialito';
   }
   .navbar{
     top: 0;
-    border: none;
   }
   #logo{
     display: none;
   }
+<<<<<<< HEAD
   .container{
     margin: 0;
   }
@@ -416,6 +407,8 @@ font-family: 'Socialito';
   .full-viewport-height{
     height: 15em;;
   }
+=======
+>>>>>>> priego
 }
 
 @media only screen and (max-width: 500px) {
@@ -484,6 +477,7 @@ font-family: 'Socialito';
   h2,
   h3 {
     page-break-after: avoid; } }
+    /*styles-franquicias-*/
 .fran-conte{
  align-content: center;
 
@@ -496,12 +490,20 @@ font-family: 'Socialito';
   /*background-color: rgba(52, 73, 94,.9); ;*/
   padding: 1.5em;
 }
+<<<<<<< HEAD
+=======
+.col-color-fond{
+  background-color: ;
+
+
+}
+>>>>>>> priego
 .img-center{
   margin:10px auto;
   display:block;
 }
 .col-center{
-   
+
     margin: 0 auto;
 }
 .conta-img-promo{
@@ -523,6 +525,10 @@ font-family: 'Socialito';
   width: 100%;
   height: 500px;
 }
+
+.img-container-heingt{
+  height: 500px;
+}
 h1{
   font-size: 3.9em;
 }
@@ -535,20 +541,22 @@ h1{
   color: #D5DBDB  ;
 }
 .color-border-marco{
-  
   border-color: #9B0000;
- 
- 
 }
 .border-col{
   border-radius: 4px;
   border:6px double;
 }
+.fond-color-col{
+  background: linear-gradient()
+}
 
 #img-costo{
-  
-
-   width: 100px;
+ width: 100px;
    height: 100px;
-  
 }
+<<<<<<< HEAD
+=======
+  /*end-franquicias-*/
+/*florian*/
+>>>>>>> priego
