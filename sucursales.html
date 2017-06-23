@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 						<!-- HOJAS DE ESTILO-->
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/stylesanty.css">
 </head>
 <body>
             <!--______________NAVBAR_____________-->
@@ -38,7 +38,7 @@
 <div id="logo" class="fixed"></div>
 
 
-<main class="full-height">
+<main>
   <div class="row">
     <div class="col-md-12">
       <div id="carousel-1" class="carousel slide" data-ride="carousel">
@@ -47,30 +47,47 @@
           <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-1" data-slide-to="1"></li>
           <li data-target="#carousel-1" data-slide-to="2"></li>
+          <li data-target="#carousel-1" data-slide-to="3"></li>
+          <li data-target="#carousel-1" data-slide-to="4"></li>
         </ol>
 
         <!--Contenedor de los slide -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="http://lorempixel.com/1200/400/" class="img-responsive" alt="">
+            <img src="http://lorempixel.com/1200/400/" class="img-responsive full-width " alt="">
             <div class="carousel-caption hidden-xs hidden-md">
-              <h3>Este es nuestro slide #1</h3>
+              <h3>Sucursal #1</h3>
             </div>
           </div>
 
           <div class="item">
-            <img src="http://lorempixel.com/1200/400/city/1" class="img-responsive" alt="">
+            <img src="http://lorempixel.com/1200/400/city/1" class="img-responsive full-width" alt="">
             <div class="carousel-caption hidden-xs hidden-md">
-              <h3>Este es nuestro slide #2</h3>
+              <h3>Sucursal #2</h3>
             </div>
           </div>
 
           <div class="item">
-            <img src="http://lorempixel.com/1200/400/city/2" class="img-responsive" alt="">
+            <img src="http://lorempixel.com/1200/400/city/2" class="img-responsive full-width" alt="">
             <div class="carousel-caption hidden-xs hidden-md">
-              <h3>Este es nuestro slide #3</h3>
+              <h3>Sucursal #3</h3>
             </div>
           </div>
+
+          <div class="item">
+            <img src="http://lorempixel.com/1200/400/city/2" class="img-responsive full-width" alt="">
+            <div class="carousel-caption hidden-xs hidden-md">
+              <h3>Sucursal #4</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="http://lorempixel.com/1200/400/city/2" class="img-responsive full-width" alt="">
+            <div class="carousel-caption hidden-xs hidden-md">
+              <h3>Sucursal #5</h3>
+            </div>
+          </div>
+
         </div> 
 
         <!-- Controles -->
@@ -87,6 +104,70 @@
       </div>
     </div>
   </div>
+  <div class="row">
+      <div class="col-md-12">
+        <div role="tabpanel">
+          
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#sucursal1" aria-controls="" data-toggle="tab" role="tab">California Ribs - Colima</a></li>
+            <li role="presentation"><a href="#sucursal2" aria-controls="" data-toggle="tab" role="tab">California Ribs - Morelia</a></li>
+            <li role="presentation"><a href="#sucursal3" aria-controls="" data-toggle="tab" role="tab">California Ribs - Tepic</a></li>
+            <li role="presentation"><a href="#sucursal4" aria-controls="" data-toggle="tab" role="tab">California Ribs - Puerto Vallarta</a></li>
+            <li role="presentation"><a href="#sucursal5" aria-controls="" data-toggle="tab" role="tab">California Ribs - San Juan</a></li>
+          </ul>
+
+          <div class="tab-content full-height">
+            <div role="tabpanel" class="tab-pane active" id="sucursal1">
+              <div id="sucursal1" class="sucursal">
+                <!-- FOTO PRINCIPAL-->
+                <table class="primary-text">
+                  <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                  <tr>
+                    <th></th>
+                    <th>Telefono</th>
+                    <th></th>
+                  </tr>
+                  <tr>
+                    <th></th>
+                    <th>Facebook</th>
+                    <th></th>
+                  </tr>
+                  <tr>
+                    <th></th>
+                    <th>Twitter</th>
+                    <th></th>
+                  </tr>
+                  <tr>
+                    <th></th>
+                    <th>Direccion</th>
+                    <th></th>
+                  </tr>
+                </table>
+              </div>
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="sucursal2">
+              <div id="sucursal2" class="sucursal"></div>
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="sucursal3">
+              <div id="sucursal3" class="sucursal"></div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="sucursal4">
+              <div id="sucursal4" class="sucursal"></div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="sucursal5">
+              <div id="sucursal5" class="sucursal"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
 </main>
 
 
