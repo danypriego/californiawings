@@ -100,7 +100,14 @@ textarea {
     border-bottom: solid 2px #D50000;
     background-color: #514aac; }
   .navbar{
-    top:2em; }
+    margin-bottom: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 2.5em;
+    border-bottom-color: #fbfbfb;
+    border-top-style: solid;
+    border-top-width: 2.5em;
+    border-top-color: #fbfbfb;
+    /*top:2em;*/ }
   #logo{
     background-image: url("../img/logo.png");
     height: 120px;
