@@ -155,7 +155,6 @@ textarea {
   #contenedor{
     margin-top: 7em;
     max-height: 100%;
-    overflow-y: auto;
   }
 
   .thumbnail img{
@@ -314,13 +313,13 @@ font-family: 'Socialito';
   z-index: 5; }
 
 .full-height {
-  height: 100%; }
+  height: 100vh; }
 
 .medium-height {
-  height: 50%; }
+  height: 50vh; }
 
 .small-height {
-  height: 25%; }
+  height: 25vh; }
 
 .full-width {
   width: 100%; }
