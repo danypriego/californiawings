@@ -87,6 +87,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   .prueba{
+    width: calc(33.333% - 6px);
+    margin: 3px;
+   }
   body{
     background-image: url("../img/fondo.png");
     background-repeat: no-repeat;
@@ -148,6 +152,9 @@ textarea {
     padding-bottom: 2em;
     padding-left: 42px;
     background: url("../img/fb32.png") no-repeat;    
+  }
+  .carousel-caption caption{
+    text-shadow: 1px 1px 2px #000;
   }
 
   .about-us{
@@ -220,6 +227,12 @@ textarea {
   }
   .contenedor{
     padding: 2px 16px;
+  }
+  .titulo{
+    display: block;
+    box-sizing: content-box;
+    position: relative;
+    left: -14px;
   }
 /* ==========================================================================
    Helper classes
@@ -321,9 +334,10 @@ font-family: 'Socialito';
   z-index: 5; }
 
 .slider-size{
-  width: 100%;
-  height: 100%;
-}
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+  }
 
 .full-viewport-height{
   /*height: auto;*/
@@ -436,9 +450,6 @@ font-family: 'Socialito';
   /* Style adjustments for viewports that meet the condition */ }
 
 @media screen and (max-width: 940px){
-  .medium-height{
-    height: auto;
-  }
   .navbar{
     top: 0;
     border: none;
