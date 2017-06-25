@@ -229,6 +229,8 @@ textarea {
   .carousel-caption caption{
     text-shadow: 1px 1px 2px #000;
   }
+  .full-height-cs {
+  height: 100%; }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -329,7 +331,6 @@ font-family: 'Socialito';
   z-index: 5; 
 }
 .full-viewport-height{
-  /*height: auto;*/
   height: calc(100% - 8.5em); }
 
 .full-height {
@@ -444,7 +445,7 @@ font-family: 'Socialito';
   }
   .navbar{
     top: 0;
-    border: none;
+    border: non%
   }
   #logo{
     display: none;
@@ -468,6 +469,9 @@ font-family: 'Socialito';
   }
   .full-viewport-height{
     height: 20em;
+  }
+  .full-height-cs{
+    height: auto;
   }
 }
 
