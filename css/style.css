@@ -152,6 +152,7 @@ textarea {
 
   .about-us{
     padding-top: 25px;
+    padding-bottom: 25px;
   }
   .about-us .row{
     margin-left: 10%;
@@ -231,6 +232,23 @@ textarea {
   }
   .full-height-cs {
   height: 100%; }
+ #history{
+   margin-top: 2em;
+ } 
+ #history, #mission, #vision{
+   padding: 10px 0;
+ }
+  .h3-about{
+    color: #00004F;
+  }
+  .about{
+    margin-bottom: 2em;
+  }
+  .light-text{
+    height: 100%;
+    color: #18227c;
+    line-height: 1.5em;
+  }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -333,14 +351,18 @@ font-family: 'Socialito';
 .full-viewport-height{
   height: calc(100% - 8.5em); }
 
+.full-height-porcent{
+  height: 100%;
+}
+
 .full-height {
-  height: 100%; }
+  height: 100vh; }
 
 .medium-height {
-  height: 50%; }
+  height: 50vh; }
 
 .small-height {
-  height: 25%; }
+  height: 25vh; }
 
 .full-width {
   width: 100%; }
@@ -445,7 +467,7 @@ font-family: 'Socialito';
   }
   .navbar{
     top: 0;
-    border: non%
+    border: none;
   }
   #logo{
     display: none;
@@ -473,8 +495,23 @@ font-family: 'Socialito';
   .full-height-cs{
     height: auto;
   }
+  .about{
+    height: auto;
+  }
+  .full-height-cs {
+  height: auto; }
+  .light-text{
+    height: auto;
+  }
 }
 
+@media screen and (max-height: 700px) {
+  .full-height-cs {
+   height: auto; }
+  .light-text{
+    height: auto;
+  }
+} 
 @media only screen and (max-width: 500px) {
    }
 
