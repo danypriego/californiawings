@@ -89,6 +89,7 @@ textarea {
    ========================================================================== */
   body{
     background-image: url("../img/fondo.png");
+
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -429,8 +430,8 @@ font-family: 'Socialito';
 .inicio-center{
   padding-top: 5%;
 }
-.conten-font-color{
-  /*background-color: rgba(52, 73, 94,.9); ;*/
+.conten-padin-col{
+
   padding: 1.5em;
 }
 .col-color-fond{
@@ -454,7 +455,12 @@ font-family: 'Socialito';
   margin-top: 50px;
 
 }
-
+.color-fond-col{
+  background: white;
+}
+.aling-left{
+  float: left;
+}
 
 #img-promo-franquicia{
   background-image: url("../img/franquicias.jpg") ;
@@ -485,12 +491,10 @@ h1{
   border-color: #9B0000;
 }
 .border-col{
-  border-radius: 4px;
-  border:6px double;
+  border-radius: 6px;
+
 }
-.fond-color-col{
-  background: linear-gradient()
-}
+
 
 #img-costo{
  width: 100px;
