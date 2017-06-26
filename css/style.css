@@ -89,7 +89,6 @@ textarea {
    ========================================================================== */
   body{
     background-image: url("../img/fondo.png");
-
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -104,8 +103,8 @@ textarea {
     top:2em; }
   #logo{
     background-image: url("../img/logo.png");
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
     background-size: cover;
     background-color: transparent;
     top: 0;
