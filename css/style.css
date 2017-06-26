@@ -88,7 +88,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
    .prueba{
-    width: calc(33.333% - 6px);
+    width: calc(50% - 6px);
     margin: 3px;
    }
   body{
@@ -104,13 +104,7 @@ textarea {
     border-bottom: solid 2px #D50000;
     background-color: #514aac; }
   .navbar{
-    margin-bottom: 0px;
-    border-bottom-style: solid;
-    border-bottom-width: 2.5em;
-    border-bottom-color: #fbfbfb;
-    border-top-style: solid;
-    border-top-width: 2.5em;
-    border-top-color: #fbfbfb;
+    top: 2em;
     /*top:2em;*/ }
   #logo{
     background-image: url("../img/logo.png");
@@ -345,6 +339,10 @@ font-family: 'Socialito';
 
 .full-height {
   height: 100vh; }
+
+.semi-full-height{
+  height: 75vh;
+}
 
 .medium-height {
   height: 50vh; }
