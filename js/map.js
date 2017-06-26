@@ -1,5 +1,8 @@
 var map;
 var marker;
+var contentStringColima;
+var contentStringMorelia;
+var infowindow;
 var myLatLngColima ={lat: 19.252877, lng: -103.712046};
 var myLatLngMorelia = {lat: 19.684731, lng: -101.165395};
 var myLatLngTepic ={lat: 18.916424, lng: -103.877643};
@@ -12,11 +15,15 @@ function initMap() {
 }
 
 document.getElementById("sucursal01").onclick = function(){
+  
+
   map.setCenter(myLatLngColima);
   marker.setPosition(myLatLngColima);
   marker.setTitle("Ejemplo");
 }
 document.getElementById("sucursal02").onclick = function(){
+  contentStringMorelia = '<img src=\'img/franquicias.jpg\'>';
+  infowindow.setContent(contentStringMorelia);
   map.setCenter(myLatLngMorelia);
   marker.setPosition(myLatLngMorelia);
   marker.setTitle("Ejemplo");
@@ -45,9 +52,18 @@ function colima(){
           center: myLatLng
         });
 
+        contentStringColima = '<img src=\'img/franquicias.jpg\'>';
+
+        infowindow = new google.maps.InfoWindow({
+          content: contentStringColima
+        });
+
         marker = new google.maps.Marker({
           position: myLatLng,
           map: map,
           title: 'California ribs, wings & beer - Colima'
+        });
+        marker.addListener('click', function() {
+          infowindow.open(map, marker);
         });
 }
